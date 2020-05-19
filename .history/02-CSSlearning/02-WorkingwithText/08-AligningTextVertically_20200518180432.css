@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+}
+hr {
+    height: 4px;
+    background-color: gainsboro;
+}
+p {
+    color: blue;
+    text-indent: 2em;
+}
+a {
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+}
+b {
+    color: red;
+}
+h1 {
+    text-align: center;
+}
+p.quote {
+    font-family: SimSun;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: small;
+    color: gainsboro;
+}
+a.alignright{
+    font-style: normal;
+}
+table.center,{
+    margin: auto;
+    border: 1px;
+    scroll-padding: 2; 
+    border-spacing: 0;
+    height: 150px;
+}
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}

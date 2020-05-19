@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+}
+hr {
+    height: 4px;
+    background-color: gainsboro;
+}
+p {
+    color: blue;
+    text-indent: 2em;
+}
+a {
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+}
+b {
+    color: red;
+}
+h1 {
+    text-align: center;
+}
+p.quote {
+    font-family: S;
+}
