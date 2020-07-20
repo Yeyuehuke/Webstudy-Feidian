@@ -1,0 +1,77 @@
+/*margin+border+padding+width=total width of a box.*/
+body {
+    background-color: pink;
+}
+hr {
+    height: 4px;
+    background-color: gainsboro;
+}
+p {
+    color: blue;
+    text-indent: 2em;
+}
+a {
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+}
+b {
+    color: red;
+}
+h1 {
+    text-align: center;
+}
+p.quote {
+    font-family: SimSun;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: small;
+    color: gainsboro;
+    text-decoration: underline;
+    text-shadow: 5px 2px 4px black;
+    border: 8px ridge oldlace;
+}
+a.alignright{
+    font-style: normal;
+}
+table.center{
+    margin: auto;
+    border: 4px ridge oldlace;
+    font-weight: bold;
+    color: orchid;
+    height: 150px;
+    padding: 2;
+}
+td{
+    text-align: center;
+    border: 4px ridge oldlace;
+    font-weight: bold;
+    color: orchid;
+}
+td.top {
+    vertical-align: top;
+    border: 4px ridge oldlace;
+    font-weight: bold;
+    color: plum;
+}
+td.middle {
+    vertical-align: middle;
+    border: 4px ridge oldlace;
+    font-weight: bold;
+    color: palevioletred;
+}
+td.bottom {
+    vertical-align: bottom;
+    border: 4px ridge oldlace;
+    font-weight: bold;
+    color: purple;
+}
+img {
+    margin: auto;
+}
+h1#WelcomeHeading{
+    letter-spacing: 16px;
+}
+h2{
+    letter-spacing: -6px;
+}
