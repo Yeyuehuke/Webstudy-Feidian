@@ -55,8 +55,8 @@ div.nav #nav_3 a {
     color: black;
     font-size: 18px;
     font-weight: bold;
-    padding-left: 200px;
-    padding-right: 10px;
+    margin-left: 200px;
+    margin-right: 10px;
 }
 
 div.nav #nav_3 a:hover {
@@ -116,8 +116,8 @@ div.nav_se div.nav_se_1 a {
     color: black;
     font-size: 16px;
     font-weight: normal;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 div.nav_se div.nav_se_1 a:hover {
@@ -152,8 +152,8 @@ div.container div.nav_se_1 a {
     color: gray;
     font-size: 16px;
     font-weight: normal;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     flex-shrink: 0;
 }
 
@@ -207,4 +207,89 @@ div.mixdisplay_1_num {
     color: grey;
     font-size: 14px;
     font-weight: normal;
+}
+
+div.displaytrack {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.displaytrack_1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+div.displaytrack_1 div {
+    flex-shrink: 0;
+}
+
+img.displaytrack_1_img {
+    height: 100px;
+    margin-right: 5px;
+}
+
+img.displaytrack_1_img:hover {
+    filter: brightness(0.75);
+    transition:filter 0.3s ease-in-out;
+}
+
+div.displaytrack_1_name {
+    flex-shrink: 0;
+}
+
+div.displaytrack_1_name a {
+    padding-left: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+div.displaytrack_1_name a:hover {
+    color: #FFA0B1;
+}
+
+div.displaytrack_1_pdr {
+    flex-shrink: 0;
+}
+
+div.displaytrack_1_pdr a {
+    padding-left: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 5px;
+    flex-shrink: 0;
+}
+
+div.displaytrack_1_pdr a:hover {
+    color: #FFA0B1;
+}
+
+div.displaytrack_1_time {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+div.ad_img {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+img.ad_img_1 {
+    margin-left: 10px;
+    margin-right: 10px;
 }
